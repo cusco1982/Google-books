@@ -26,7 +26,7 @@ app.use(routes);
 //   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 // });
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googleBooks";
+// var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks";
 
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googleBooks", {useNewUrlParser: true, useUnifiedTopology: true})
